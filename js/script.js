@@ -143,7 +143,7 @@ $(function(){
             $("p").css("color","#ff0000")
             $("td").addClass("done") //空いているマスに上書きできないようにクラス付与
         }
-        if(bflag){
+        if(bflag)
             $("p").text("2Pの勝ち！")
             $("p").css("color","#0000ff")
             $("td").addClass("done")
